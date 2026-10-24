@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tribute to Raja Ravi Varma</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(#fbead1, #f8dfb6);
+      color: #3b2f2f;
+      line-height: 1.6;
+    }
+    .gradient-background {
+      background: linear-gradient(300deg, #8f0a2e, #ff4c68, #ff452c);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+    }
+
+    @keyframes gradient-animation {
+     0% {
+        background-position: 0% 50%;
+        }
+     50% {
+        background-position: 100% 50%;
+        }
+     100% {
+        background-position: 0% 50%;
+        }
+    }
+
+    header {
+      background-color: #704214;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #fff8ef;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .image-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .image-section img {
+      width: 80%;
+      max-width: 500px;
+      border-radius: 10px;
+      border: 3px solid #8f0a2e;
+    }
+    p{
+      text-align: justify;
+    }
+    h2 {
+      color: #8f0a2e;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 15px;
+      background-color:#ff4c68;
+      color: white;
+    }
+   .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+      gap: 30px;
+      padding: 30px;
+      width: 90%;
+    }
+    .zoom-card {
+      background:#8f0a2e;
+      color: #fff;
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      padding:10px;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+    .zoom-card:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header class="gradient-background">
+    <h1>Tribute to Raja Ravi Varma</h1>
+    <p style="text-align: center;">The Pioneer of Modern Indian Art</p>
+  </header>
+
+  <div class="container">
+    <div class="image-section">
+      <img src="./assets/ravivarma.jpg " style="width: 25%;" alt="Raja Ravi Varma">
+      <p style="text-align: center;"><em>Raja Ravi Varma (1848–1906)</em></p>
+    </div>
+
+    <h2>About the Artist</h2>
+    <p style="text-indent: 2em;">
+     <b>Raja Ravi Varma</b> was a legendary Indian painter and artist, widely recognized for bringing Indian mythology to life through his oil paintings. His ability to seamlessly blend European techniques with Indian sensibilities made him a household name across the subcontinent.
+    </p>
+    <hr>
+    <h2>What I Admire</h2>
+    <p style="text-indent: 2em;">
+      I deeply admire his dedication to making art accessible to the masses. His use of lithographic printing made his work widely available, helping even rural households see depictions of Indian gods and epics in visual form. His portrayal of women was both graceful and powerful—he celebrated beauty, strength, and dignity in each brushstroke.
+    </p>
+    <p style="text-indent: 2em;">
+      His famous paintings like <strong>"Shakuntala", "Damayanti Talking to a Swan"</strong>, and depictions of <strong>Lakshmi and Saraswati</strong> still remain iconic and are revered across the world.
+    </p>
+ 
+  <div class="card-grid">
+    <div class="zoom-card"><img src="./assets/Shakuntala.jpg" style="width: 100%;height: 100%;" alt="Shakuntala"></div>
+    <div class="zoom-card"><img src="./assets/damayanti.jpg" style="width: 100%;height: 100%;" alt="Damayanti"></div>
+    <div class="zoom-card"><img src="./assets/lakshmi&saraswathi.jpg" style="width: 100%;height: 100%;" alt="Lakshmi and Saraswati"></div>
+  </div>
+    <hr>
+    <h2>Legacy</h2>
+    <p style="text-indent: 2em;">
+     <b> Raja Ravi Varma's</b> legacy lives on in Indian art and culture. He has inspired generations of painters, designers, and filmmakers. His work continues to evoke emotion, nostalgia, and pride. He didn't just paint—he told stories that spoke to the soul.
+    </p>
+  </div>
+
+  <footer>
+    <p style="text-align: center;">Created with admiration by a humble fan ♥</p>
+  </footer>
+</body>
+</html>
